@@ -16,7 +16,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">sub title</label>
-                    <input type="text" name="sub_title" class="form-control" id="" placeholder="input your title">
+                    <input type="text" name="subTitle" class="form-control" id="" placeholder="input your title">
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">image</label>

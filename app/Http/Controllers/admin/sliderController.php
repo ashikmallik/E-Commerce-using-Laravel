@@ -41,7 +41,7 @@ class sliderController extends Controller
     {
         $this->validate($request,[
             'title' => 'required',
-            'sub_title' => 'required',
+            'subTitle' => 'required',
             'image' => 'required|mimes: jpg,png,jpeg',
 
         ]);
@@ -63,7 +63,7 @@ class sliderController extends Controller
 
         $slider = new slider();
         $slider->title = $request->title;
-        $slider->sub_title = $request->sub_title;
+        $slider->subTitle = $request->subTitle;
         $slider->image = $imagename;
         $slider->save();
         Alert::success('Data insert Successfully', 'Success Message');

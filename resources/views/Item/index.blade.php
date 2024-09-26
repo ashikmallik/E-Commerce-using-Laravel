@@ -3,7 +3,7 @@
 
 @section('content')
 
-    <div><a href="{{route('item.index')}}" class="btn btn-info mb-4">Create</a></div>
+    <div><a href="{{route('item.create')}}" class="btn btn-info mb-4">Create</a></div>
 <table class="table table-striped">
     <thead>
         <tr>
